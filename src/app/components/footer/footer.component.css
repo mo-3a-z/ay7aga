@@ -1,0 +1,14 @@
+.cWhrite{
+    background-color: #1A252F;
+}
+#footer{
+    background-color: #2C3E50;
+}
+.icon{
+    width: 40px;
+    height:40px;
+    border: solid 2px white;
+}
+.row{
+    padding: 100px 0px 100px 0px;
+}

@@ -1,0 +1,29 @@
+<section id="contact" class="p-5 text-center">
+    <h2 class="t-main">conatct section</h2>
+    <app-star  [starColor]="'var(--main-color)'"></app-star>
+
+    <form class="mt-4 w-50 mx-auto">
+    <div class="mb-5 overflow-hidden ">
+      <label for="userName" class="text-success position-relative top-400" [class.top-0]="userName.length>0">userName:</label>
+      <input placeholder="userName" type="text" id="userName" name="name" class="form-control border-top-0 border-end-0 border-start-0" [(ngModel)]="userName">
+    </div>
+    <div class="mb-5 overflow-hidden ">
+      <label for="userAge" class="text-success position-relative top-400" [class.top-0]="userAge.length>0">userAge:</label>
+      <input placeholder="userAge" type="text" id="userAge" name="age" class="form-control border-top-0 border-end-0 border-start-0" [(ngModel)]="userAge">
+    </div>
+    <div class="mb-5 overflow-hidden ">
+      <label for="userEmail" class="text-success position-relative top-400" [class.top-0]="userEmail.length>0">userEmail:</label>
+      <input placeholder="userEmail" type="text" id="userEmail" name="email" class="form-control border-top-0 border-end-0 border-start-0" [(ngModel)]="userEmail">
+    </div>
+      <div class="mb-5 overflow-hidden ">
+        <label for="userPassword" class="text-success position-relative top-400" [class.top-0]="userPassword.length>0">userPassword:</label>
+        <input placeholder="userPassword" type="text" id="userPassword" name="password" class="form-control border-top-0 border-end-0 border-start-0" [(ngModel)]="userPassword">
+      </div>
+
+      <button type="button" class=" btn btn-success opacity-75">send message</button>
+
+    </form>
+    
+    
+
+</section>

@@ -1,0 +1,13 @@
+.top-400{
+    top:400px;
+}
+
+label{
+    transition: all 0.3s;
+}
+
+form input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: inherit !important;
+}
