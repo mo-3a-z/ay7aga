@@ -1,1 +1,1 @@
-# ay7aga
+# angular simple app
